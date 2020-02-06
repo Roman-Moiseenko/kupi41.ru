@@ -1,0 +1,73 @@
+li.li_card {
+  list-style-type: none; /* Убираем маркеры */
+  border-style: solid;
+  border-color: #0f0f0f ;
+  border: 2px;
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #ffffff;
+}
+ul.li_card {
+  margin-left: 4px; /* Отступ слева в браузере IE и Opera */
+  padding-left: 4px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+
+block_accord{
+  position: relative;
+  display: block;
+  padding: 0;
+  margin-left: 1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.textarea_pay
+{
+  resize: none;
+}
+.border-process {
+  border-color: #ffeeba !important;
+}
+.border-current {
+  border-color: #b9def0 !important;
+}
+.border-finish {
+  border-color: #c3e6cb !important;
+}
+.custom-file-label::after {
+  content: "Обзор";
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /*background-color: #f0f0f0;*/
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+
+  background-color: #f0f0f0;
+}
